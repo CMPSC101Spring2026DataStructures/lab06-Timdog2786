@@ -1,10 +1,10 @@
 # CS101 Spring 2026 — Practice Midterm Reflection
 
-Name: Add Your Name Here  
-Date: Add Date Here
+Name: Timothy Moisio
+Date: 3/13/2026
 
 After completing the practice test, please reflect on your experience by
-answering the questions below. Replace each `TODO` with a thoughtful response
+answering the questions below. Replace each `TO_DO` with a thoughtful response
 (a few sentences each). Your responses help you consolidate what you learned
 and identify areas to review before the real midterm.
 
@@ -17,7 +17,7 @@ Which topics felt most comfortable, and which ones felt most difficult?
 
 **Your Answer:**
 
-TODO
+I felt quite postive and optimistic about my performance. I felt comfortable on almost all topics. I found lambdas to be the most difficult.
 
 ---
 
@@ -28,7 +28,7 @@ Explain the concept being tested and describe why the correct answer is right.
 
 **Your Answer:**
 
-TODO
+I do not have any questions i was unsure about, nor do i know as off right now that i got any wrong.
 
 ---
 
@@ -39,7 +39,7 @@ with a positive step versus a negative step. Give one original example of each.
 
 **Your Answer:**
 
-TODO
+The dfference between a postive and negative step in 'range(a, b, step)' is that with a postive step, the range is adding to a to get to b, while a negatie step subtracts from a to get to be. an example of postive is range(1,9,2), and for a negative is range(1,9,-2)
 
 ---
 
@@ -51,7 +51,7 @@ dictionary and a set. When would you choose each?
 
 **Your Answer:**
 
-TODO
+A key difference between a list and a tuple is that a tuple is unmutable. A difference btween a dictionary and a set is that a set has no duplicates and a dictionary has key that respsents values. You would choose a list when you have various values, that keep being added or subtracted from, and keep track of duplicates. You would use a tuples when you have a set of values that will never change or need to be added to the set. You would use a dictionary if you have values that have another value closely respseneted to it. You would use a set when you need a list but to remove duplicates.
 
 ---
 
@@ -63,7 +63,12 @@ the caller omits that argument.
 
 **Your Answer:**
 
-TODO
+A defualt parameter is a value that python uses when you dont put any value into the parameters.
+```
+def example_math(a, b=99)
+    return a + b
+```
+in this example, if the user does not put into a 'b' value, it will add 99 to 'a'.
 
 ---
 
@@ -81,7 +86,7 @@ for n in range(1, 11):
 
 **Your Answer:**
 
-TODO
+result = [n*2 if n % 3 == 0 for range(1,11)]
 
 ---
 
@@ -92,7 +97,7 @@ What is the value of `2 ** 2 ** 3`? Show your step-by-step reasoning.
 
 **Your Answer:**
 
-TODO
+64, because python does 2**2 to get 4 then does 4**3 to get 64
 
 ---
 
@@ -102,7 +107,7 @@ TODO
 
 **Your Answer:**
 
-TODO
+Classes are predefine objects that have certain attrubits and methods. They are necessary in programming to keep code conherent and allow object oriented programming.
 
 ---
 
